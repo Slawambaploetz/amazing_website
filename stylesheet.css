@@ -20,5 +20,6 @@ p {
   text-align: center;
   font-family: verdana;
   font-size: 20px;
-  background-color: black;
+  padding-left: 15%;
+  background-color: lightgrey;
 }
