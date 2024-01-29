@@ -3,15 +3,16 @@ body {
 }
 
 h1 {
-  font-size: 70px
+  font-size: 70px;
   color: black;
   text-align: center;
 }
 
 h2 {
-  font-size: 28px
+  font-size: 28px;
   color: black;
   text-align: left;
+  width: 70%;
   padding-left: 15%;
 }
 
