@@ -1,6 +1,6 @@
 body {
   background-color: red; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, Red , Orange, Yellow, Green, Blue, Indigo, Violet);
+  background-image: linear-gradient(to bottom, Red , Orange, Yellow, Green, Blue, Indigo, Violet);
 }
 
 h1 {
