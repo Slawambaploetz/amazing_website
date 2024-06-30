@@ -1,31 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <link rel="stylesheet" href="stylesheet.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fug</title>
+    <link rel="stylesheet" href="stylesheet.css">
     <style>
         body {
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
+            background-color: #202020; /* Hintergrundfarbe für besseren Kontrast */
+            color: #ffffff; /* Textfarbe für besseren Kontrast */
         }
         /* Main Content Area */
         .content {
             display: flex;
-            justify-content: space-between;
-            padding: 40px;
+            flex-wrap: wrap;
+            padding: 20px;
         }
         .left-sidebar, .right-sidebar {
-            flex: 0 0 20px;
+            flex: 1 1 100%; /* Nehmen 100% der Breite auf mobilen Geräten */
             background-color: #303030;
-            /* Add styles for ads or background images here */
+            padding: 10px;
+            margin-bottom: 10px;
         }
         .main-content {
-            flex: 1;
+            flex: 1 1 100%;
             background-color: #181818;
             padding: 20px;
+            margin-bottom: 10px;
+        }
+        @media(min-width: 768px) {
+            .left-sidebar, .right-sidebar {
+                flex: 0 0 20%;
+                margin-bottom: 0;
+            }
+            .main-content {
+                flex: 0 0 60%;
+                margin-bottom: 0;
+            }
+        }
+        h1, h3 {
+            color: #ffcc00; /* Auffällige Farbe für Überschriften */
+        }
+        p {
+            line-height: 1.6; /* Bessere Lesbarkeit */
         }
     </style>
 </head>
@@ -39,7 +59,6 @@
 
         <!-- Main Content -->
         <div class="main-content">
-            
             <!-- Your main content goes here -->
             <h1>13 unglaublich willkürliche Ungerechtigkeiten</h1>
             <p>404</p>
@@ -47,16 +66,16 @@
             <p>42 Singt zusammen ein Lied</p>
             <p>1337 Mache ein Selfi mit einem Fremden des anderen Geschlechts</p>
             <p>4711 Umarme die nächsten 2 Menschen mit free hugs Schild</p>
-             <p>9 3/4 Mache 30 Sekunden Hula Hoop ohne Reifen</p>
-             <p>0815 Verschenke ein Getränk</p>
-             <p>00 Trinke einen Shot mit einem Fremden</p>
-             <p>7353 Auf dem nächsten Weg zu den Bühnen muss jede Zone die passiert wird ausgeführt werden</p>
-             <p>124 Ziehe ein Kleidungsstück aus</p>
-             <p>23 Richte eine Zone vor deinem Camp ein</p>
-             <p>69 Gib jemandem einen Kuss</p>
-             <h3>Ihre Chaos GmbH UN.fu KG</h3>
-             <p>Für Lobpreisungen, Danksagungen und Kontaktaufnahmeversuche schreibt uns auf Insta: foxy_und_micha_ontour</p>
-             <p>Für Kritik wendet euch bitte direkt an die nächste Papiertonne</p>
+            <p>9 3/4 Mache 30 Sekunden Hula Hoop ohne Reifen</p>
+            <p>0815 Verschenke ein Getränk</p>
+            <p>00 Trinke einen Shot mit einem Fremden</p>
+            <p>7353 Auf dem nächsten Weg zu den Bühnen muss jede Zone die passiert wird ausgeführt werden</p>
+            <p>124 Ziehe ein Kleidungsstück aus</p>
+            <p>23 Richte eine Zone vor deinem Camp ein</p>
+            <p>69 Gib jemandem einen Kuss</p>
+            <h3>Ihre Chaos GmbH UN.fu KG</h3>
+            <p>Für Lobpreisungen, Danksagungen und Kontaktaufnahmeversuche schreibt uns auf Insta: foxy_und_micha_ontour</p>
+            <p>Für Kritik wendet euch bitte direkt an die nächste Papiertonne</p>
         </div>
 
         <!-- Right Sidebar (for ads or background images) -->
