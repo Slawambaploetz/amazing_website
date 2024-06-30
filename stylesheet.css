@@ -22,6 +22,12 @@ h3 {
   text-align: center;
 }
 
+#rainbow{
+  height: 300px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, Red , Orange, Yellow, Green, Blue, Indigo, Violet);
+}
+
 p {
   text-align: left;
   font-family: verdana;
