@@ -5,13 +5,15 @@ body {
 
 h1 {
   font-size: 70px;
-  color: black;
+  color: white;
+  background-color: #181818;
   text-align: center;
 }
 
 h2 {
   font-size: 28px;
-  color: black;
+  color: white;
+  background-color: #181818;
   text-align: left;
   width: 70%;
   padding-left: 15%;
@@ -19,7 +21,8 @@ h2 {
 
 h3 {
   font-size: 35px;
-  color: black;
+  color: white;
+  background-color: #181818;
   text-align: center;
 }
 
@@ -33,6 +36,8 @@ p {
   text-align: center;
   font-family: verdana;
   font-size: 20px;
+  color: white;
+  background-color: #181818;
   padding-left: 15%;
   width: 70%;
 }
